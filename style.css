@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #0BB6C2, #66E90F);
+}
+
+.radioLabel {
+   font-size: 2em;
+}
+button {
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}
+@media (max-width: 435px) {
+    .radioLabel {
+        font-size: 0.9em;
+     }
+}
